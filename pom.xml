@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.czxy.xuecheng</groupId>
-    <artifactId>xc_parent</artifactId>
+    <artifactId>test_xc_parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -88,7 +88,7 @@
                 <version>${xuecheng.version}</version>
             </dependency>
 
-            <!--sprig cloud版本-->
+            <!--sprig cloud版本
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -96,6 +96,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
 
             <!-- mybatis启动器 -->
             <dependency>
@@ -186,7 +187,6 @@
                 <artifactId>fastdfs-client-java</artifactId>
                 <version>${fastdfs-client-java.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
@@ -206,6 +206,5 @@
             </snapshots>
         </repository>
     </repositories>
-
 
 </project>
