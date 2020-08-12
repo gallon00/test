@@ -10,7 +10,8 @@ import lombok.Data;
 public class QueryPageRequest {
     //站点id
     @ApiModelProperty("站点id")
-    private String siteId;
+    private String siteId = "2";
+    private String sex;
     //页面ID
     @ApiModelProperty("页面ID")
     private String pageId;
