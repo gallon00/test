@@ -7,12 +7,10 @@ import lombok.Data;
  * 接收页面查询的查询条件
  */
 @Data
-public class QueryPageRequest {
+public class QueryPageRequest2 {
     //站点id
     @ApiModelProperty("站点id")
-    private String siteId = "3";
-    private String sex;
-    private String a;
+    private String siteId;
     //页面ID
     @ApiModelProperty("页面ID")
     private String pageId;
