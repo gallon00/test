@@ -11,6 +11,7 @@ public class QueryPageRequest2 {
     //站点id
     @ApiModelProperty("站点id")
     private String siteId;
+    private String a12;
     //页面ID
     @ApiModelProperty("页面ID")
     private String pageId;

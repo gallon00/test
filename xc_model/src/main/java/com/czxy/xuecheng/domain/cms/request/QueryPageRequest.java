@@ -14,6 +14,7 @@ public class QueryPageRequest {
     private String sex;
     private String a;
     private String b;
+    private String a1;
     //页面ID
     @ApiModelProperty("页面ID")
     private String pageId;
